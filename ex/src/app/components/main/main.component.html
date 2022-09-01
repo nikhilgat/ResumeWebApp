@@ -1,0 +1,191 @@
+<!-- 
+ <div *ngFor="let post of posts">
+ <div class="card" style="text-align: center;"> 
+    <h1>
+        resume
+      </h1>
+      <h5>
+      {{post.name}}
+      </h5>
+      <h5>
+        {{post.phoneNo}}
+      </h5>
+      <h5>
+        {{post.address}}
+      </h5>
+      <h5>
+        {{post.email}}
+      </h5>   
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+  <a routerLink="/edit">
+  <button type="submit">edit</button>
+  </a>
+  </div>
+ </div> -->
+<div class="background">
+ <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+
+<div class="body" *ngFor="let post of posts">
+<div class="container">
+  <div class="header">
+    <div class="full-name">
+      <span class="first-name">{{post.name}}</span> 
+    </div>
+    <div class="contact-info">
+      <span class="email">Email: </span>
+      <span class="email-val">{{post.email}}</span>
+      <span class="separator"></span>
+      <span class="phone">Phone: </span>
+      <span class="phone-val">{{post.phoneNo}}</span>
+    </div>
+    
+    <div class="about">
+      <span class="position">Full-Stack Developer </span>
+      <span class="desc">
+          Passionate full-stack engineer with hands-on experience in
+  developing scalable websites/applications using a wide range of front-end
+  and back-end skills like HTML, CSS, Java, JavaScript, etc. Developed websites from scratch using Spring and Angular. Looking to further enhance HTML5, CSS3, JS
+  skills as the future full stack developer.
+      </span>
+    </div>
+  </div>
+   <div class="details">
+    <div class="section">
+      <div class="section__title">Experience (INTERNSHIP)</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Virtusa</div>
+            <div class="addr">Gachibowli, HYD</div>
+            <div class="duration">Dec 2021 - Apr 2022</div>
+          </div>
+          <div class="right">
+            <div class="name">Fish Landia</div>
+            <div class="desc">Built an End to End Web Application</div>
+          </div>
+        </div>
+                <div class="section__list-item">
+          <div class="left">
+            <div class="name">Tata Communications Limited</div>
+            <div class="addr">Madhapur, HYD</div>
+            <div class="duration">Jan 2011 - Feb 2015</div>
+          </div>
+          <div class="right">
+            <div class="name">TCP/IP and OSI</div>
+            <div class="desc">Studied and researched on IP and Servers with hands on experience</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title">Education</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Gitam University</div>
+            <div class="addr">Patancheru, HYD</div>
+            <div class="duration">Jun 2018 - Apr 2022</div>
+          </div>
+          <div class="right">
+            <div class="name">EECE </div>
+            <div class="desc">CGPA 7.91</div>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Sri Chaitanya Junior College</div>
+            <div class="addr">Madinaguda, HYD</div>
+            <div class="duration">Apr 2016 - Apr 2018</div>
+          </div>
+          <div class="right">
+            <div class="name">MPC</div>
+            <div class="desc">CGPA 92.7</div>
+          </div>
+        </div>
+
+      </div>
+      
+  </div>
+     <div class="section">
+      <div class="section__title">Projects</div> 
+       <div class="section__list">
+         <div class="section__list-item">
+           <div class="name">E-Commerce Website</div>
+           <div class="text">Buit an E-Commerce Website that users can use to buy different variety of fishes and sea food. Have created this application using Angular, Spring and MySql.</div>
+         </div>
+         
+         <div class="section__list-item">
+                    <div class="name">Movie Review Web App</div>
+           <div class="text">Buit a Movie Review Website that users can Log into to buy read and review about any movie. Have created this application using Angular, Spring and MySql.
+           </div>
+         </div>
+       </div>
+    </div>
+     <div class="section">
+       <div class="section__title">Skills</div>
+       <div class="skills">
+         <div class="skills__item">
+           <div class="left"><div class="name">
+             Javascript
+             </div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" />
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+       <div class="skills__item">
+           <div class="left"><div class="name">
+             CSS</div></div>
+           <div class="right">
+                          <input  id="ck1" type="checkbox" checked/>
+
+             <label for="ck1"></label>
+                          <input id="ck2" type="checkbox" checked/>
+
+              <label for="ck2"></label>
+                         <input id="ck3" type="checkbox" checked/>
+
+              <label for="ck3"></label>
+                           <input id="ck4" type="checkbox" />
+            <label for="ck4"></label>
+                          <input id="ck5" type="checkbox" />
+              <label for="ck5"></label>
+
+           </div>
+         </div>
+         
+       </div>
+     <div class="section">
+     <div class="section__title">
+       Interests
+       </div>
+       <div class="section__list">
+         <div class="section__list-item">
+                  Football, programming, Editing
+          </div>
+       </div>
+     </div>
+     </div>
+     </div>
+     <a routerLink="/edit" class="btn">
+      Edit Resume
+    </a>
+  </div>
+</div>
